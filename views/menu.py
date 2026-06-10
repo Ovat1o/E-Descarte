@@ -1,4 +1,4 @@
-from views.eletronics_page import navigateEletronics
+from views.eletronics_page import navigateElectronics
 
 def startApp():
     print("Bem-vindo ao programa E-descarte!")
@@ -13,7 +13,7 @@ def router(userInput):
     if userInput == "1":
         print("Você escolheu ir para a area de eletronicos.")
         # Navegar para a view de descarte eletronico
-        navigateEletronics()
+        navigateElectronics()
     elif userInput == "2":
         print("Você escolheu fazer login.")
         # Aqui você pode adicionar a lógica para o processo de login.
