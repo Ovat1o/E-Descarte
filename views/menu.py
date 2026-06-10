@@ -1,9 +1,9 @@
 from views.eletronics_page import navigateElectronics
 
 def startApp():
-    print("Bem-vindo ao programa E-descarte!")
+    print("Bem-vindo ao programa É-Descarte!")
     print("Este programa ajuda a calcular o impacto ambiental do descarte de resíduos eletrônicos.")
-    print("Vamos começar! Digite 1 para navegar para a area de eletronicos; 2 para fazer login; 3 para sair.")
+    print("Vamos começar! Digite 1 para navegar para a area de eletrônicos; 2 para fazer login; 3 para sair.")
     userInput = str(input("Digite sua escolha: "))
     router(userInput)
 
@@ -11,8 +11,8 @@ def startApp():
 
 def router(userInput):
     if userInput == "1":
-        print("Você escolheu ir para a area de eletronicos.")
-        # Navegar para a view de descarte eletronico
+        print("Você escolheu ir para a area de eletrônicos.")
+        # Navegar para a view de descarte eletrônico
         navigateElectronics()
     elif userInput == "2":
         print("Você escolheu fazer login.")

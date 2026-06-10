@@ -1,12 +1,12 @@
 def navigateElectronics():
     print("Navegando para a área de eletrônicos...")
-    print("Selecione 1 para listar todos os eletronicos cadastrados; 2 para cadastrar um novo eletronico; 3 para buscar eletronico por ID; 4 para buscar eletronico por nome; 5 para encerrar.")
+    print("Selecione 1 para listar todos os eletrônicos cadastrados; 2 para cadastrar um novo eletrônico; 3 para buscar eletronico por ID; 4 para buscar eletronico por nome; 5 para encerrar.")
     userInput = str(input("Digite sua escolha: "))
     router(userInput)
 
 def router(userInput):
     if userInput == "1":
-        print("Você escolheu listar todos os eletronicos cadastrados.")
+        print("Você escolheu listar todos os eletrônicos cadastrados.")
         listAllElectronics()
         # Aqui você pode adicionar a lógica para listar todos os eletronicos cadastrados.
     elif userInput == "2":
