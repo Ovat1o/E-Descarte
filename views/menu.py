@@ -1,3 +1,7 @@
+# views/menu.py
+# Menu principal (View) - ponto de entrada da interface.
+# Usa loop while (em vez de recursao) para nao estourar a pilha.
+
 from views.eletronics_page import navigate_electronics
 from views.user_page import navigate_user
 

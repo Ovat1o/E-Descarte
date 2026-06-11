@@ -1,3 +1,7 @@
+# views/eletronics_page.py
+# Camada de interface (View) de Eletronico.
+# So cuida de input() e print(). Chama o controller para a logica.
+
 from controllers import electronic_controller
 
 

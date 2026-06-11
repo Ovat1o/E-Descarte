@@ -1,3 +1,7 @@
+# views/discard_page.py
+# Camada de interface (View) de Descarte.
+# Recebe o usuario ja logado (vindo de user_page) para registrar o descarte.
+
 from controllers import discard_controller
 from controllers import electronic_controller
 

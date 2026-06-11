@@ -1,3 +1,8 @@
+# models/electronic.py
+# Camada de dados (Model) da entidade Eletronico.
+# Responsabilidade: ler e escrever em data/electronics.txt.
+# NAO contem input() nem regras de negocio - so persistencia.
+
 CAMINHO = "./data/electronics.txt"
 
 

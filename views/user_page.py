@@ -1,3 +1,6 @@
+# views/user_page.py
+# Camada de interface (View) de Usuario: cadastro, login e area logada.
+
 from controllers import user_controller
 from views import discard_page
 

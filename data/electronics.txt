@@ -1,2 +1,3 @@
-iPhone 13,40
-Notebook Samsung,100
+1,iPhone 13,40
+2,Notebook Samsung,100
+3,iphone 34,122
