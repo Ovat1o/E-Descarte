@@ -1,25 +1,25 @@
-from views.eletronics_page import navigateElectronics
+from views.eletronics_page import navigate_electronics
+from views.user_page import navigate_user
+
 
 def startApp():
-    print("Bem-vindo ao programa É-Descarte!")
-    print("Este programa ajuda a calcular o impacto ambiental do descarte de resíduos eletrônicos.")
-    print("Vamos começar! Digite 1 para navegar para a area de eletrônicos; 2 para fazer login; 3 para sair.")
-    userInput = str(input("Digite sua escolha: "))
-    router(userInput)
+    print("Bem-vindo ao programa E-descarte!")
+    print("Este programa ajuda a calcular o impacto ambiental do descarte de residuos eletronicos.")
 
+    rodando = True
+    while rodando:
+        print("\n--- Menu Principal ---")
+        print("[1] Area de eletronicos")
+        print("[2] Area do usuario (cadastro / login / descarte)")
+        print("[0] Sair")
+        escolha = input("Digite sua escolha: ").strip()
 
-
-def router(userInput):
-    if userInput == "1":
-        print("Você escolheu ir para a area de eletrônicos.")
-        # Navegar para a view de descarte eletrônico
-        navigateElectronics()
-    elif userInput == "2":
-        print("Você escolheu fazer login.")
-        # Aqui você pode adicionar a lógica para o processo de login.
-    elif userInput == "3":
-        print("Saindo do programa. Até mais!")
-        exit()
-    else:
-        print("Opção inválida. Por favor, tente novamente.")
-        startApp()
+        if escolha == "1":
+            navigate_electronics()
+        elif escolha == "2":
+            navigate_user()
+        elif escolha == "0":
+            print("Saindo do programa. Ate mais!")
+            rodando = False
+        else:
+            print("Opcao invalida. Por favor, tente novamente.")
